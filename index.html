@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Weddingdance.ro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="less/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic,300italic,100italic,100,700italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body ng-app="YourApp">
+    <div class="body-wrapper">
+
+        <div class="wrap">
+            <div class="main-footer">
+                <div layout="row" layout-xs="column">
+                    <div flex="70">
+                        <nav class="bottom-nav" role="navigation">
+                            <ul>
+                                <li><a href="index.html" class="active"><md-button>Home</md-button></a></li>
+                                <li><a href="despre-noi.html"><md-button>Despre noi</md-button></a></li>
+                                <li><a href="servicii.html"><md-button>Servicii</md-button></a></li>
+                                <li><a href="galerie.html"><md-button>Galerie</md-button></a></li>
+                                <li><a href="contact.html"><md-button>Contact</md-button></a></li>
+                                <li><a href="#" disabled><md-button>Shop</md-button></a></li>
+                                <li><a href="parteneri.html"><md-button>Parteneri</md-button></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div flex="30">
+                        <nav class="social-nav">
+                            <ul>
+                                <li><a href="#" target="_blank"><img src="assets/img/social/fb.png" alt="facebook"></a></li>
+                                <li><a href="#" target="_blank"><img src="assets/img/social/yt.png" alt="youtube"></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div layout="row">
+                    <div flex="35">
+                        <div class="address">
+                            <span>Marasti</span><br>
+                            <span class="phone">0264 444 222</span><br>
+                            pta. Marasti, nr. 100<br>
+                            Cluj-Napoca, jud. Cluj
+                        </div>
+                    </div>
+                    <div flex="35">
+                        <div class="address">
+                            <span>Zorilor</span><br>
+                            <span class="phone">0264 444 333</span><br>
+                            str. Republicii, nr. 83<br>
+                            Cluj-Napoca, jud. Cluj
+                        </div>
+                    </div>
+                    <div flex="35">
+                        <div class="copyright">
+                            Copyright &copy; 2016 <a href="weddingdance.ro">weddingdance.ro</a>. Toate drepturile rezervate.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div ng-controller="YourController">
+
+    </div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script>
+
+        // Include app dependency on ngMaterial
+
+        angular.module( 'YourApp', [ 'ngMaterial' ] )
+                .controller("YourController", YourController );
+
+    </script>
+
+</body>
+</html>
