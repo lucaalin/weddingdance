@@ -1,0 +1,100 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+}
+a,
+button {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out 0s;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.body-wrapper {
+  position: relative;
+  border: 10px solid #cdb59d;
+  border-bottom: 0;
+  min-height: 100%;
+}
+.wrap {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: 700;
+}
+h3,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 300;
+  color: #333333;
+}
+h3 {
+  padding: 0;
+  font-size: 38px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 960px) {
+  h3 {
+    font-size: 34px;
+  }
+}
+h5,
+h6 {
+  padding: 0 0 30px 0;
+}
+h5 {
+  font-size: 26px;
+}
+@media only screen and (max-width: 960px) {
+  h5 {
+    font-size: 20px;
+  }
+}
+h6 {
+  font-size: 20px;
+}
+@media only screen and (max-width: 960px) {
+  h6 {
+    font-size: 19px;
+  }
+}
+.generic-form button {
+  box-shadow: none !important;
+  font-size: 13px !important;
+  color: #333333;
+  border-radius: 0 !important;
+}
+.generic-form button:hover {
+  color: #7f2622;
+}
+.generic-form .tip {
+  display: block;
+  font-size: 13px;
+  color: #666666;
+  padding-bottom: 30px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.generic-form .tip.note {
+  font-style: italic;
+}
+.generic-form .additional-data {
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+.generic-form .additional-data md-input-container {
+  margin-bottom: 0 !important;
+}

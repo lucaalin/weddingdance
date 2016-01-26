@@ -1,288 +1,179 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en" ng-app="weddingApp">
 
-    <title>Weddingdance.ro</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<head>
 
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
-    <link rel="stylesheet" href="less/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic,300italic,100italic,100,700italic,900,900italic' rel='stylesheet' type='text/css'>
-</head>
-<body ng-app="YourApp">
-    <div class="body-wrapper">
-		
-		<header class="main-header">
-			<div class="wrap">
-				<div layout="row">
-					<div flex>
-						<nav class="secondary-nav" role="navigation">
-							<ul>
-								<li><a><md-button ng-disabled="true">Shop</md-button></a></li>
-								<li><a href="parteneri.html"><md-button>Parteneri</md-button></a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-				<div layout="row">
-					<div flex>
-						<div class="logo">
-							<a href="index.html"><img src="assets/img/logo.png" alt="weddingdance.ro"></a>
-						</div>
-					</div>
-				</div>
-				<div layout="row">
-					<div flex>
-						<nav class="main-nav" role="navigation">
-							<ul>
-								<li><a href="index.html" class="active"><md-button>Home</md-button></a></li>
-                                <li><a href="despre-noi.html"><md-button>Despre noi</md-button></a></li>
-                                <li><a href="servicii.html"><md-button>Servicii</md-button></a></li>
-                                <li><a href="galerie.html"><md-button>Galerie</md-button></a></li>
-                                <li><a href="contact.html"><md-button>Contact</md-button></a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</header>
-		
-		<div class="wrap">
-			<div class="intro" style="background-image: url('assets/img/bg-intro.jpg')">
-				<div layout="row" class="intro-row" layout-align="center center">
-					<div flex layout-align="center center">
-						<div layout="column">
-							<div flex>
-								<h1>Text de introducere</h1>
-								<h2>Cursuri de dans pentru miri</h2>
-								<a href="despre-noi.html"><md-button class="md-raised">Mai multe detalii</md-button></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="wrap">
-			<div class="about" style="background-image: url('assets/img/bg-about.jpg')">
-				<div layout="row" class="about-row" layout-align="center center">
-					<div flex layout-align="center center">
-						<div layout="column">
-							<div flex>
-								<h3>Despre noi</h3>
-								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-								<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
-								<a href="contact.html"><md-button class="md-raised">Contacteaza-ne</md-button></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		<div class="wrap">
-			<div class="generic-content">
-				<div layout="row">
-					<div flex>
-						<h3>Despre noi/Servicii</h3>
-					</div>
-				</div>
-				<div layout="row">
-					<div flex>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo lacus, gravida in vestibulum rutrum, imperdiet id eros. Quisque id mauris tincidunt metus semper eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris felis augue, hendrerit id tellus sed, lacinia auctor erat. Quisque sed elit felis. Suspendisse potenti. Nulla vitae massa posuere, sollicitudin urna in, vulputate purus. Nullam vitae condimentum tellus.</p>
-						<p class="bold">Nulla at tincidunt lacus. Donec venenatis mattis ante, et aliquet diam venenatis non. Donec rhoncus sed metus interdum consectetur. Donec dapibus efficitur turpis vitae placerat. Donec vestibulum finibus sem, ultricies placerat ex.</p>
-						<h5>Subtitle</h5>
-						<p>Aenean in orci malesuada, pretium nisl id, convallis tortor. Pellentesque sollicitudin sem vitae quam consequat, vitae commodo nisl finibus. Suspendisse justo diam, varius sed placerat eu, aliquam sit amet nunc. In hac habitasse platea dictumst. Donec posuere ultricies erat, vel vehicula mi pulvinar in. Etiam et risus sed neque pulvinar consequat venenatis eu mi. Maecenas ligula massa, lacinia efficitur dui quis, lacinia rhoncus tortor.</p>
-						<ul class="content-list">
-							<li>Curabitur euismod lorem condimentum dui euismod euismod</li>
-							<li>Curabitur euismod lorem condimentum dui euismod euismod</li>
-							<li>Curabitur euismod lorem condimentum dui euismod euismod</li>
-							<li>Curabitur euismod lorem condimentum dui euismod euismod</li>
-						</ul>
-						<h6>Another subtitle</h6>
-						<p class="italic">Curabitur eros dolor, lobortis ut tempor eget, viverra id augue. Donec imperdiet, lacus pulvinar posuere finibus, eros orci tincidunt velit, vitae lacinia sem sem sit amet augue. Nunc semper cursus libero ut porttitor.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-		<div class="wrap">
-			<div class="generic-content">
-				<div layout="row">
-					<div flex>
-						<h3>Contact</h3>
-					</div>
-				</div>
-				<div layout="row">
-					<div flex>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc justo lacus, gravida in vestibulum rutrum, imperdiet id eros. Quisque id mauris tincidunt metus semper eleifend.</p>
-					</div>
-				</div>
-				<div layout="row" layout-align="center">
-					<div flex="50">
-						<form name="contactForm" class="generic-form">
-							<div layout-gt-sm="row">
-								<md-input-container class="md-block" flex-gt-sm>
-									<label>Nume</label>
-									<input ng-model="user.firstName">
-								</md-input-container>
-								<md-input-container class="md-block" flex-gt-sm>
-									<label>Prenume</label>
-									<input ng-model="user.lastName">
-								</md-input-container>
-							</div>
-							<div layout-gt-sm="row">
-								<md-input-container class="md-block" flex-gt-sm>
-									<label>Telefon</label>
-									<input ng-model="user.phoneNo">
-								</md-input-container>
-								<md-input-container class="md-block" flex-gt-sm>
-									<label>Email</label>
-									<input ng-model="user.emailAddress">
-								</md-input-container>
-							</div>
-							<md-input-container class="md-block">
-								<label>Sunt interesat de</label>
-								<md-select ng-model="user.interest">
-									<md-option value="dansulMirilor">Dansul mirilor</md-option>
-									<md-option value="cursuriDans">Cursuri de dans</md-option>
-								</md-select>
-							</md-input-container>
-							<div class="additional-data">
-								<span class="tip">Date aditionale :</span>
-								<md-datepicker ng-model="user.eventDate" md-placeholder="Data"></md-datepicker>
-								<md-input-container class="md-block" flex-gt-sm>
-									<label>Locatia</label>
-									<input ng-model="user.eventLocation">
-								</md-input-container>
-							</div>
-							<md-input-container class="md-block">
-								<label>Mesaj</label>
-								<textarea ng-model="user.message" columns="1" md-maxlength="500" rows="5"></textarea>
-							</md-input-container>
-							<md-button type="submit" class="md-raised">Trimite</md-button>
-							<span class="tip note">Toate campurile sunt obligatorii.</span>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-		
-		
-		
-		<div class="wrap">
-			<div class="reviews">
-				<div layout="row">
-					<div flex>
-						<h3>Testimoniale</h3>
-					</div>
-				</div>
-				<div layout="row">
-					<div flex="50">
-						<div class="review">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<span>Nume Prenume</span>
-						</div>
-					</div>
-					<div flex="50">
-						<div class="review">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<span>Nume Prenume</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<footer class="main-footer">
-			<div class="wrap">
-				<div layout="row" layout-xs="column">
-						<div flex="70">
-							<nav class="bottom-nav" role="navigation">
+		<title>Weddingdance.ro</title>
+		<meta name="description" content="Cursuri de dans pentru dansul mirilor">
+
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+		<link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+		<link rel="stylesheet" href="less/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic,300italic,100italic,100,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+	</head>
+
+	<body>
+
+		<div class="body-wrapper">
+
+			<header class="main-header" ng-controller="HeaderController">
+				<div class="wrap">
+					<div layout="row">
+						<div flex>
+							<nav class="secondary-nav" role="navigation">
 								<ul>
-									<li><a href="index.html" class="active"><md-button>Home</md-button></a></li>
-									<li><a href="despre-noi.html"><md-button>Despre noi</md-button></a></li>
-									<li><a href="servicii.html"><md-button>Servicii</md-button></a></li>
-									<li><a href="galerie.html"><md-button>Galerie</md-button></a></li>
-									<li><a href="contact.html"><md-button>Contact</md-button></a></li>
-									<li><a><md-button ng-disabled="true">Shop</md-button></a></li>
-									<li><a href="parteneri.html"><md-button>Parteneri</md-button></a></li>
-								</ul>
-							</nav>
-						</div>
-						<div flex="30">
-							<nav class="social-nav">
-								<ul>
-									<li><a href="#" target="_blank"><img src="assets/img/social/fb.png" alt="facebook"></a></li>
-									<li><a href="#" target="_blank"><img src="assets/img/social/yt.png" alt="youtube"></a></li>
+									<li ng-repeat="menu in secmenus">
+										<a href="{{menu.link}}">
+											<md-button ng-disabled="{{menu.disabled}}">{{menu.label}}</md-button>
+										</a>
+									</li>
 								</ul>
 							</nav>
 						</div>
 					</div>
-				<div layout="row" layout-align="center center">
-						<div flex="35">
-							<div class="address">
-								<span>Marasti</span><br>
-								<span class="phone">0264 444 222</span><br>
-								pta. Marasti, nr. 100<br>
-								Cluj-Napoca, jud. Cluj
-							</div>
-						</div>
-						<div flex="35">
-							<div class="address">
-								<span>Zorilor</span><br>
-								<span class="phone">0264 444 333</span><br>
-								str. Republicii, nr. 83<br>
-								Cluj-Napoca, jud. Cluj
-							</div>
-						</div>
-						<div flex="35">
-							<div class="copyright">
-								Copyright &copy; 2016 <a href="weddingdance.ro">weddingdance.ro</a>. Toate drepturile rezervate.
+					<div layout="row">
+						<div flex>
+							<div class="logo">
+								<a href="{{logo.link}}"><img ng-src="{{logo.imageUrl}}" alt="weddingdance.ro"></a>
 							</div>
 						</div>
 					</div>
+					<div layout="row">
+						<div flex>
+							<nav class="main-nav" role="navigation">
+								<ul>
+									<li ng-repeat="menu in menus">
+										<a href="{{menu.link}}">
+											<md-button>{{menu.label}}</md-button>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div ng-controller="IndexController">
+
+				<div class="wrap">
+					<div class="intro" style="background-image: url('{{pagecontent.intro.backgroundUrl}}')">
+						<div layout="row" class="intro-row" layout-align="center center">
+							<div flex layout-align="center center">
+								<div layout="column">
+									<div flex>
+										<h1>{{pagecontent.intro.title}}</h1>
+										<h2>{{pagecontent.intro.subtitle}}</h2>
+										<a href="{{pagecontent.intro.buttonLink}}"><md-button class="md-raised">{{pagecontent.intro.buttonLabel}}</md-button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="wrap">
+					<div class="about" style="background-image: url('{{pagecontent.about.backgroundUrl}}')">
+						<div layout="row" class="about-row" layout-align="center center">
+							<div flex layout-align="center center">
+								<div layout="column">
+									<div flex>
+										<h3>{{pagecontent.about.title}}</h3>
+										<div ng-repeat="paragraph in pagecontent.about.paragraphs">
+											<p>{{paragraph.content}}</p>
+										</div>
+										<a href="{{pagecontent.about.buttonLink}}"><md-button class="md-raised">{{pagecontent.about.buttonLabel}}</md-button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="wrap">
+					<div class="reviews">
+						<div layout="row">
+							<div flex>
+								<h3>{{pagecontent.reviews.title}}</h3>
+							</div>
+						</div>
+						<div layout="row">
+							<div flex="50" ng-repeat="review in pagecontent.reviews.elements">
+								<div class="review">
+									<p>{{review.description}}</p>
+									<span>{{review.author}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
-		</footer>
-		
-    </div>
 
+			<footer class="main-footer" ng-controller="FooterController">
+				<div class="wrap">
+					<div layout="row" layout-xs="column">
+							<div flex="70" flex-xs="100">
+								<nav class="bottom-nav" role="navigation">
+									<ul>
+										<li ng-repeat="menu in menus">
+											<a href="{{menu.link}}">
+												<md-button>{{menu.label}}</md-button>
+											</a>
+										</li>
+										<li ng-repeat="menu in secmenus">
+											<a href="{{menu.link}}">
+												<md-button ng-disabled="{{menu.disabled}}">{{menu.label}}</md-button>
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div flex="30" flex-xs="100">
+								<nav class="social-nav">
+									<ul>
+										<li ng-repeat="network in socials">
+											<a href="{{network.link}}" target="_blank">
+												<img ng-src="{{network.imageUrl}}" alt="{{network.name}}">
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					<div layout="row" layout-align="center center" layout-xs="column">
+							<div flex="35" flex-xs="50" ng-repeat="address in addresses">
+								<div class="address">
+									<span>{{address.area}}</span><br>
+									<span class="phone">{{address.phone}}</span><br>
+									{{address.addrLineOne}}<br>
+									{{address.addrLineTwo}}
+								</div>
+							</div>
+							<div flex="35" flex-xs="100">
+								<div class="copyright">
+									{{copyright.copy}} <a href="{{copyright.link}}">{{copyright.label}}</a>. {{copyright.rights}}.
+								</div>
+							</div>
+						</div>
+				</div>
+			</footer>
 
-	
-	
-	
-	
-	
-	
-    <div ng-controller="YourController">
+		</div>
 
-    </div>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-aria/angular-aria.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/angular-material/angular-material.js"></script>
+		<script src="js/application.js"></script>
+		<script src="js/controllers/HeaderController.js"></script>
+		<script src="js/controllers/FooterController.js"></script>
+		<script src="js/controllers/IndexController.js"></script>
 
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/angular-material/angular-material.js"></script>
-    <script>
+	</body>
 
-        // Include app dependency on ngMaterial
-
-        angular.module( 'YourApp', [ 'ngMaterial' ] )
-                .controller("YourController", YourController );
-
-    </script>
-
-</body>
 </html>
