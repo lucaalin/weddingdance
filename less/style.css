@@ -175,6 +175,10 @@ h6 {
 .intro.intro-contact {
   margin-bottom: -10px;
 }
+.intro.intro-page {
+  height: 300px;
+  background-position: top center;
+}
 @media only screen and (max-width: 960px) {
   .intro {
     height: 600px;
@@ -306,6 +310,7 @@ h6 {
 .generic-content {
   position: relative;
   text-align: center;
+  padding-bottom: 40px;
 }
 @media only screen and (max-width: 960px) {
   .generic-content {
@@ -371,6 +376,40 @@ h6 {
 @media only screen and (max-width: 680px) {
   .map .map-item {
     height: 300px;
+  }
+}
+.partner {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+}
+.partner a {
+  display: block;
+  color: #7f2622;
+  font-style: 15px;
+  font-weight: 300;
+}
+.partner a:hover {
+  color: #000000;
+}
+.partner a img {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+}
+.partner a span {
+  display: block;
+  padding-top: 15px;
+}
+.video {
+  position: relative;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px 15px;
+}
+@media only screen and (max-width: 680px) {
+  .video {
+    padding: 15px 0;
   }
 }
 .main-footer {

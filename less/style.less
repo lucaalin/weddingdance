@@ -2,19 +2,16 @@
 @import "common";
 
 
-
 // TO-DO : Header compact on scroll toggle class .compact
 // TO-DO : Header on mobile - toggle menu
-// TO-DO : Contact form link data
-// TO-DO : Create angular modules for pages
-// TO-DO : Create pages
+// TO-DO : Contact 2 way binding
 // TO-DO : Add content
 // TO-DO : Photo gallery
 // TO-DO : Video gallery
 // TO-DO : Link social icons
 // TO-DO : Reviews responsive
 // TO-DO : Reviews carousel
-
+// TO-DO : Sort colors - migrate towards colors from the provided swatches
 
 
 // HEADER
@@ -111,6 +108,11 @@
 
 	&.intro-contact {
 		margin-bottom: -10px;
+	}
+
+	&.intro-page {
+		height: 300px;
+		background-position: top center;
 	}
 
 	@media @port-sm {
@@ -251,6 +253,7 @@
 .generic-content {
 	position: relative;
 	text-align: center;
+	padding-bottom: 40px;
 
 	@media @port-sm {
 		padding: 0 30px;
@@ -316,6 +319,45 @@
 		@media @port-xs {
 			height: 300px;
 		}
+	}
+}
+
+.partner {
+	position: relative;
+	text-align: center;
+	padding: 30px;
+
+	a {
+		display: block;
+		color: @main;
+		font-style: 15px;
+		font-weight: 300;
+
+		&:hover {
+			color: @black;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			max-width: 350px;
+		}
+		
+		span {
+			display: block;
+			padding-top: 15px;
+		}
+	}
+}
+
+.video {
+	position: relative;
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 30px 15px;
+
+	@media @port-xs {
+		padding: 15px 0;
 	}
 }
 
