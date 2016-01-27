@@ -38,7 +38,7 @@ h5,
 h6 {
   margin: 0;
   font-weight: 300;
-  color: #333333;
+  color: #7f2622;
 }
 h3 {
   padding: 0;
@@ -97,4 +97,7 @@ h6 {
 }
 .generic-form .additional-data md-input-container {
   margin-bottom: 0 !important;
+}
+.content-container {
+  margin-bottom: 50px;
 }

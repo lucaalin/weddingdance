@@ -1,18 +1,12 @@
 @import "config";
 @import "common";
+@import "misc/carousel";
 
-
-// TO-DO : Header compact on scroll toggle class .compact
-// TO-DO : Header on mobile - toggle menu
-// TO-DO : Contact 2 way binding, switch, send email
-// TO-DO : Add content
-// TO-DO : Photo gallery
-// TO-DO : Video gallery
-// TO-DO : Link social icons
-// TO-DO : Reviews responsive
-// TO-DO : Reviews carousel
-// TO-DO : Sort colors - migrate towards colors from the provided swatches
-
+// TO-DO : Contact put php file and finalize email send
+// TO-DO : Video carousel
+// TO-DO : Add content (blocked)
+// TO-DO : hosting, link host, upload, email, link email (blocked)
+// TO-DO : Partners & testimonials generate data on rows
 
 // HEADER
 .main-header {
@@ -23,11 +17,17 @@
 	height: auto;
 	z-index: 5;
 	text-align: center;
+	transition: all 0.4s ease-in-out 0s;
 	
 	.secondary-nav {
 		text-align: right;
 		padding: 10px 0;
 		padding-right: 30px;
+
+		@media @port-xs {
+			text-align: center;
+			padding: 5px 0 15px 0;
+		}
 		
 		li {
 			display: inline-block;
@@ -60,6 +60,10 @@
 			a {
 				display: block;
 				margin:0 20px;
+
+				@media @port-xs {
+					margin: 0;
+				}
 				
 				button {
 					margin: 0;
@@ -67,6 +71,10 @@
 					letter-spacing: 5px;
 					text-transform: uppercase;
 					color: @dark-gray;
+
+					@media @port-xs {
+						letter-spacing: 0px;
+					}
 					
 					&:hover {
 						color: @main;
@@ -77,8 +85,11 @@
 	}
 	
 	&.compact {
-		background: @white;
+		background: rgba(255,255,255, 0.95);
 		padding: 10px 0;
+		border: 10px solid @secondary;
+		border-top: 0;
+		border-bottom: 0;
 		
 		.secondary-nav {
 			display: none;
@@ -205,7 +216,7 @@
 	
 	button {
 		margin-top: 30px;
-		background: @dark-gray !important;
+		background: @main !important;
 		color: @white !important;
 		padding: 0 45px;
 		border-radius: 0 !important;
@@ -222,26 +233,31 @@
 	position: relative;
 	text-align: center;
 	overflow: hidden;
-	padding: 0 30px;
+	padding: 0;
 	padding-bottom: 50px;
-	padding-left: 45px;
-	
+
 	.review {
 		position: relative;
+		padding: 0 30px;
 		margin: 30px 0;
 		padding-top: 30px;
 		background: url('../assets/img/quote.png') top left no-repeat;
-		
+		background-size: 9px 8px;
+
+		@media @port-xs {
+			margin: 10px 0;
+		}
+
 		p {
 			margin: 0;
-			padding-right: 45px;
 			padding-bottom: 30px;
 			font-size: 14px;
 			color: @dark-gray;
 			line-height: 24px;
 			background: url('../assets/img/quote.png') bottom right no-repeat;
+			background-size: 9px 8px;
 		}
-		
+
 		span {
 			font-size: 12px;
 			font-weight: 400;
@@ -352,12 +368,50 @@
 
 .video {
 	position: relative;
-	margin: 0 auto;
-	max-width: 600px;
-	padding: 30px 15px;
 
 	@media @port-xs {
 		padding: 15px 0;
+	}
+
+	iframe {
+		height: 720px;
+
+		@media @port-sm {
+			height: 500px;
+		}
+
+		@media @port-xs {
+			height: 300px;
+		}
+	}
+}
+
+.member {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 300px;
+	padding-bottom: 30px;
+
+	header {
+		position: relative;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	h6 {
+		margin: 0;
+		padding: 15px 0;
+		font-style: 19px;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
 	}
 }
 

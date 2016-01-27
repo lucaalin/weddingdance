@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
 		<link rel="stylesheet" href="less/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,400italic,300italic,100italic,100,700italic,900,900italic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	</head>
 
@@ -20,7 +21,7 @@
 
 		<div class="body-wrapper">
 
-			<header class="main-header" ng-controller="HeaderController" ng-class="">
+			<header class="main-header" id="doc-header" ng-controller="HeaderController" ng-class="">
 				<div class="wrap">
 					<div layout="row">
 						<div flex>
@@ -101,11 +102,37 @@
 								<h3>{{pagecontent.reviews.title}}</h3>
 							</div>
 						</div>
+
+
 						<div layout="row">
-							<div flex="50" ng-repeat="review in pagecontent.reviews.elements">
-								<div class="review">
-									<p>{{review.description}}</p>
-									<span>{{review.author}}</span>
+							<div flex>
+								<div class="carouselbox">
+									<div class="buttons">
+										<button class="prev"><i class="material-icons">keyboard_arrow_left</i></button>
+										<button class="next"><i class="material-icons">keyboard_arrow_right</i></button>
+									</div>
+									<ol class="content">
+										<li>
+											<div layout="row" layout-xs="column">
+												<div flex="50" flex-xs="100" ng-repeat="review in pagecontent.reviews.elements">
+													<div class="review">
+														<p>{{review.description}}</p>
+														<span>{{review.author}}</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div layout="row" layout-xs="column">
+												<div flex="50" flex-xs="100" ng-repeat="review in pagecontent.reviews2.elements">
+													<div class="review">
+														<p>{{review.description}}</p>
+														<span>{{review.author}}</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ol>
 								</div>
 							</div>
 						</div>
@@ -173,6 +200,7 @@
 		<script src="js/controllers/HeaderController.js"></script>
 		<script src="js/controllers/FooterController.js"></script>
 		<script src="js/controllers/IndexController.js"></script>
+		<script src="js/misc/carousel.js"></script>
 
 	</body>
 

@@ -1,7 +1,7 @@
 'use strict';
 
 weddingApp.controller('ContactController',
-    function IndexController($scope) {
+    function IndexController($scope, $http) {
 
         $scope.pagecontent = {
             title: 'Contact',
@@ -9,28 +9,19 @@ weddingApp.controller('ContactController',
             requiredmessage: 'Va rugam sa completati toate campurile de mai sus.'
         };
 
+        $scope.user = {};
 
-        $scope.sendUserData = function(user) {
-
+        $scope.sendUserData = function() {
+            window.alert('A intrat in functie');
+            $http({
+                method : 'POST',
+                url : '/create',
+                data : $scope.user
+            });
+            window.alert('Finish!');
         }
 
-        $scope.user = {
-            firstName: '',
-            lastName: '',
-            phoneNo: '',
-            emailAddress: '',
-            interests: [
-                {
-                    title: ''
-                },
-                {
-                    title: ''
-                }
-            ],
-            eventDate: '',
-            eventLocation: '',
-            message: ''
-        }
+        // $scope.user = contactData.user;
 
     }
 );

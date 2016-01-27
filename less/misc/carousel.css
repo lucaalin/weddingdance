@@ -1,0 +1,83 @@
+.carouselbox {
+  position: relative;
+  width: 100%;
+}
+.carouselbox .buttons {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.carouselbox .buttons button {
+  border: none;
+  visibility: hidden;
+  outline-width: 0;
+  background: none;
+  position: absolute;
+  top: 47%;
+}
+@media only screen and (max-width: 680px) {
+  .carouselbox .buttons button {
+    top: 40%;
+  }
+}
+.carouselbox .buttons button.next {
+  right: 0;
+}
+.carouselbox .buttons button.prev {
+  left: 0;
+}
+.carouselbox .buttons button i {
+  font-size: 48px;
+  color: #7f2622;
+  transition: all 0.2s ease-in-out 0s;
+}
+.carouselbox .buttons button i:hover {
+  color: #000000;
+}
+.carouselbox .content {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.carouselbox .content li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  z-index: 2;
+}
+.carouselbox .content li img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.carouselbox.active {
+  height: auto;
+}
+.carouselbox.active .buttons {
+  display: block;
+}
+.carouselbox.active .buttons button {
+  visibility: visible;
+}
+.carouselbox.active .content {
+  overflow: hidden;
+}
+.carouselbox.active .content li {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+.carouselbox.active .content li.current {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}

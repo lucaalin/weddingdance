@@ -20,7 +20,7 @@
 
 <div class="body-wrapper">
 
-    <header class="main-header" ng-controller="HeaderController" ng-class="">
+    <header class="main-header" id="doc-header" ng-controller="HeaderController" ng-class="">
         <div class="wrap">
             <div layout="row">
                 <div flex>
@@ -78,6 +78,20 @@
                     <p>Aenean in orci malesuada, pretium nisl id, convallis tortor. Pellentesque sollicitudin sem vitae quam consequat, vitae commodo nisl finibus. Suspendisse justo diam, varius sed placerat eu, aliquam sit amet nunc. In hac habitasse platea dictumst. Donec posuere ultricies erat, vel vehicula mi pulvinar in. Etiam et risus sed neque pulvinar consequat venenatis eu mi. Maecenas ligula massa, lacinia efficitur dui quis, lacinia rhoncus tortor.</p>
                     <h6>Another subtitle</h6>
                     <p class="italic">Curabitur eros dolor, lobortis ut tempor eget, viverra id augue. Donec imperdiet, lacus pulvinar posuere finibus, eros orci tincidunt velit, vitae lacinia sem sem sit amet augue. Nunc semper cursus libero ut porttitor.</p>
+                </div>
+            </div>
+            <div layout="row">
+                <div flex>
+                    <h5>{{pagecontent.subtitle}}</h5>
+                </div>
+            </div>
+            <div layout="row" layout-xs="column" ng-repeat="membersrow in pagecontent.membersrows">
+                <div flex="33" flex-xs="100" ng-repeat="member in membersrow.members">
+                    <div class="member">
+                        <header><img ng-src="{{member.imageUrl}}" alt="{{member.name}}"></header>
+                        <h6>{{member.name}}</h6>
+                        <p>{{member.description}}</p>
+                    </div>
                 </div>
             </div>
         </div>
