@@ -12,13 +12,12 @@ weddingApp.controller('ContactController',
         $scope.user = {};
 
         $scope.sendUserData = function() {
-            window.alert('A intrat in functie');
             $http({
                 method : 'POST',
                 url : '/create',
                 data : $scope.user
             });
-            window.alert('Finish!');
+            window.alert('Mesajul dvs. a fost trimis cu succes!');
         }
 
         // $scope.user = contactData.user;

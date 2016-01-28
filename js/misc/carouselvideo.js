@@ -1,9 +1,7 @@
-carousel = (function(){
-
-    //sleep(1000);
+carouselvideo = (function(){
 
     // Read necessary elements from the DOM once
-    var box = document.querySelector('.carouselbox');
+    var box = document.querySelector('.carouselboxvideo');
     var next = box.querySelector('.next');
     var prev = box.querySelector('.prev');
 
@@ -46,13 +44,3 @@ carousel = (function(){
     navigate(0);
 
 })();
-
-function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-        if ((new Date().getTime() - start) > milliseconds){
-            break;
-        }
-    }
-    alert("woke up!");
-}

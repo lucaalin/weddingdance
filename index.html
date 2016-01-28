@@ -99,7 +99,7 @@
 					<div class="reviews">
 						<div layout="row">
 							<div flex>
-								<h3>{{pagecontent.reviews.title}}</h3>
+								<h3>{{pagecontent.reviewstitle}}</h3>
 							</div>
 						</div>
 
@@ -113,18 +113,8 @@
 									</div>
 									<ol class="content">
 										<li>
-											<div layout="row" layout-xs="column">
-												<div flex="50" flex-xs="100" ng-repeat="review in pagecontent.reviews.elements">
-													<div class="review">
-														<p>{{review.description}}</p>
-														<span>{{review.author}}</span>
-													</div>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div layout="row" layout-xs="column">
-												<div flex="50" flex-xs="100" ng-repeat="review in pagecontent.reviews2.elements">
+											<div layout="row" layout-xs="column" ng-repeat="reviewsrow in pagecontent.reviewsrows">
+												<div flex="50" flex-xs="100" ng-repeat="review in reviewsrow.reviews">
 													<div class="review">
 														<p>{{review.description}}</p>
 														<span>{{review.author}}</span>

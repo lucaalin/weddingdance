@@ -77,8 +77,8 @@
                     </div>
                 </div>
             </div>
-            <div layout="row" layout-xs="column">
-                <div flex="33" flex-xs="100" ng-repeat="partner in pagecontent.partners">
+            <div layout="row" layout-xs="column" ng-repeat="partnersrow in pagecontent.partnersrows">
+                <div flex="33" flex-xs="100" ng-repeat="partner in partnersrow.partners">
                     <div class="partner">
                         <a href="{{partner.link}}"><img ng-src="{{partner.imageUrl}}" alt="{{partner.name}}"></a>
                         <a href="{{partner.link}}"><span>{{partner.name}}</span></a>

@@ -1,8 +1,10 @@
-.carouselbox {
+.carouselbox,
+.carouselboxvideo {
   position: relative;
   width: 100%;
 }
-.carouselbox .buttons {
+.carouselbox .buttons,
+.carouselboxvideo .buttons {
   display: none;
   position: absolute;
   z-index: 10;
@@ -11,7 +13,8 @@
   width: 100%;
   height: 100%;
 }
-.carouselbox .buttons button {
+.carouselbox .buttons button,
+.carouselboxvideo .buttons button {
   border: none;
   visibility: hidden;
   outline-width: 0;
@@ -20,54 +23,67 @@
   top: 47%;
 }
 @media only screen and (max-width: 680px) {
-  .carouselbox .buttons button {
+  .carouselbox .buttons button,
+  .carouselboxvideo .buttons button {
     top: 40%;
   }
 }
-.carouselbox .buttons button.next {
+.carouselbox .buttons button.next,
+.carouselboxvideo .buttons button.next {
   right: 0;
 }
-.carouselbox .buttons button.prev {
+.carouselbox .buttons button.prev,
+.carouselboxvideo .buttons button.prev {
   left: 0;
 }
-.carouselbox .buttons button i {
+.carouselbox .buttons button i,
+.carouselboxvideo .buttons button i {
   font-size: 48px;
   color: #7f2622;
   transition: all 0.2s ease-in-out 0s;
 }
-.carouselbox .buttons button i:hover {
+.carouselbox .buttons button i:hover,
+.carouselboxvideo .buttons button i:hover {
   color: #000000;
 }
-.carouselbox .content {
+.carouselbox .content,
+.carouselboxvideo .content {
   position: relative;
   margin: 0;
   padding: 0;
 }
-.carouselbox .content li {
+.carouselbox .content li,
+.carouselboxvideo .content li {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
   z-index: 2;
 }
-.carouselbox .content li img {
+.carouselbox .content li img,
+.carouselboxvideo .content li img {
   display: block;
   width: 100%;
   height: auto;
 }
-.carouselbox.active {
+.carouselbox.active,
+.carouselboxvideo.active {
   height: auto;
 }
-.carouselbox.active .buttons {
+.carouselbox.active .buttons,
+.carouselboxvideo.active .buttons {
   display: block;
 }
-.carouselbox.active .buttons button {
+.carouselbox.active .buttons button,
+.carouselboxvideo.active .buttons button {
   visibility: visible;
 }
-.carouselbox.active .content {
+.carouselbox.active .content,
+.carouselboxvideo.active .content {
   overflow: hidden;
 }
-.carouselbox.active .content li {
+.carouselbox.active .content li,
+.carouselboxvideo.active .content li {
   position: relative;
   top: 0;
   left: 0;
@@ -76,7 +92,8 @@
   opacity: 0;
   transition: all 0.4s ease-in-out 0s;
 }
-.carouselbox.active .content li.current {
+.carouselbox.active .content li.current,
+.carouselboxvideo.active .content li.current {
   width: 100%;
   height: auto;
   opacity: 1;

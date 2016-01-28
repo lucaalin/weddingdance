@@ -25,33 +25,33 @@ weddingApp.controller('IndexController',
                 buttonLabel: 'Contacteaza-ne',
                 buttonLink: 'contact.html'
             },
-            reviews: {
-                title: 'Testimoniale',
-                elements: [
-                    {
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        author: 'Name Surname'
-                    },
-                    {
-                        description: 'Aorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        author: 'Surname Name'
-                    }
-                ]
-            },
-            reviews2: {
-                title: 'Testimoniale',
-                elements: [
-                    {
-                        description: 'Aorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        author: 'Name Surname'
-                    },
-                    {
-                        description: 'Borem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        author: 'Surname Name'
-                    }
-                ]
-            }
+            reviewstitle: 'Testimoniale',
+            reviewsrows: [
+                {
+                    reviews: [
+                            {
+                                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                                author: 'Name Surname'
+                            },
+                            {
+                                description: 'Aorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                                author: 'Surname Name'
+                            }
+                    ]
+                },
+                {
+                    reviews: [
+                        {
+                            description: 'Corem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                            author: 'Name Surname'
+                        },
+                        {
+                            description: 'Porem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                            author: 'Surname Name'
+                        }
+                    ]
+                }
+            ]
         }
-
     }
 );
