@@ -12,6 +12,11 @@ weddingApp.controller('FooterController',
             {
                 link: 'parteneri.html',
                 label: 'Parteneri',
+                disabled: true
+            },
+            {
+                link: 'faq.html',
+                label: 'FAQ',
                 disabled: false
             }
         ];
@@ -47,7 +52,7 @@ weddingApp.controller('FooterController',
             },
             {
                 name: 'youtube',
-                link: ' ',
+                link: 'https://www.youtube.com/watch?v=mHly3ZIyjLE',
                 imageUrl: 'assets/img/social/yt.png'
             }
         ];

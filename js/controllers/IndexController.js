@@ -6,8 +6,8 @@ weddingApp.controller('IndexController',
         $scope.pagecontent = {
             intro: {
                 backgroundUrl: 'assets/img/bg-intro.jpg',
-                title: 'Text de introducere',
-                subtitle: 'Cursuri de dans pentru miri',
+                title: 'Îți ia puțin ca să dansezi',
+                subtitle: 'Pașii spre pasul cel mare',
                 buttonLabel: 'Mai multe detalii',
                 buttonLink: 'despre-noi.html'
             },

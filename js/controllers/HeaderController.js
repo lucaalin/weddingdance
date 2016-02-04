@@ -5,7 +5,7 @@ weddingApp.controller('HeaderController',
 
         $scope.logo = {
             link: 'index.html',
-            imageUrl: 'assets/img/logo.png'
+            imageUrl: 'assets/img/LOGOWeddingDnce.png'
         };
 
         $scope.secmenus = [
@@ -17,6 +17,11 @@ weddingApp.controller('HeaderController',
             {
                 link: 'parteneri.html',
                 label: 'Parteneri',
+                disabled: true
+            },
+            {
+                link: 'faq.html',
+                label: 'FAQ',
                 disabled: false
             }
         ];

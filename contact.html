@@ -8,6 +8,8 @@
 
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 
 	<link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
@@ -59,24 +61,7 @@
 	</header>
 
 	<div class="wrap">
-		<div class="intro intro-page intro-contact" style="background-image: url('assets/img/bg-intro.jpg')">
-		</div>
-	</div>
-
-	<div class="wrap">
-		<div class="map">
-			<div layout="row" layout-xs="column">
-				<div flex="50" flex-xs="100">
-					<div class="map-item">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.330831318386!2d23.61235095162464!3d46.778085079035975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c1752f4837d%3A0x76b83e6440f851ab!2zUGlhyJthIE3Eg3LEg8iZdGkgMTAwLCBDbHVqLU5hcG9jYSA0MDAwMDA!5e0!3m2!1sen!2sro!4v1453798789290" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>
-				</div>
-				<div flex="50" flex-xs="100">
-					<div class="map-item">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2733.2868546744758!2d23.59053695162422!3d46.75924197903526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c2ce459d6ed%3A0xa505a82bf5672c1c!2sStrada+Republicii+83%2C+Cluj-Napoca+400000!5e0!3m2!1sen!2sro!4v1453798860039" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
+		<div class="intro intro-page" style="background-image: url('assets/img/bg-intro.jpg')">
 		</div>
 	</div>
 
@@ -89,7 +74,7 @@
 			</div>
 			<div layout="row">
 				<div flex>
-					<p>{{pagecontent.description}}</p>
+					<p>Dacă poți să te miști, poți să dansezi.<br>Ce mai astepți? Înscrie-te.<br>-locurile sunt limitate-</p>
 				</div>
 			</div>
 			<div layout="row" layout-align="center" layout-xs="column">
@@ -137,6 +122,23 @@
 						<md-button type="submit" ng-click="sendUserData(user)" class="md-raised">Trimite</md-button>
 						<span class="tip note">{{pagecontent.requiredmessage}}</span>
 					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrap">
+		<div class="map">
+			<div layout="row" layout-xs="column">
+				<div flex="50" flex-xs="100">
+					<div class="map-item">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.330831318386!2d23.61235095162464!3d46.778085079035975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c1752f4837d%3A0x76b83e6440f851ab!2zUGlhyJthIE3Eg3LEg8iZdGkgMTAwLCBDbHVqLU5hcG9jYSA0MDAwMDA!5e0!3m2!1sen!2sro!4v1453798789290" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div flex="50" flex-xs="100">
+					<div class="map-item">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2733.2868546744758!2d23.59053695162422!3d46.75924197903526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c2ce459d6ed%3A0xa505a82bf5672c1c!2sStrada+Republicii+83%2C+Cluj-Napoca+400000!5e0!3m2!1sen!2sro!4v1453798860039" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 				</div>
 			</div>
 		</div>

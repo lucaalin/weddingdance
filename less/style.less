@@ -48,6 +48,14 @@
 			}
 		}
 	}
+
+	.logo {
+		img {
+			width: 100%;
+			max-width: 200px;
+			height: auto;
+		}
+	}
 	
 	.main-nav {
 		padding: 10px 10px;
@@ -185,12 +193,12 @@
 	text-align: center;
 	background: @light-gray;
 	margin-bottom: 50px;
-	height: 700px;
+	height: 800px;
 	background-position: center center;
 	background-size: cover;
 
 	@media @port-sm {
-		height: 500px;
+		height: 1100px;
 	}
 	
 	.about-row {
@@ -201,7 +209,7 @@
 	p {
 		font-size: 17px;
 		line-height: 26px;
-		color: @medium-gray;
+		color: @black;
 		font-weight: 300;
 		margin: 0 0 30px 0;
 		padding: 0;
@@ -219,10 +227,13 @@
 		padding: 0 45px;
 		border-radius: 0 !important;
 		box-shadow: none !important;
+		min-width: 220px;
 
 		@media @port-sm {
 			margin-top: 0;
 			padding-top: 0;
+			margin-bottom: 15px;
+			clear: both;
 		}
 	}
 }
@@ -302,8 +313,7 @@
 		padding-bottom: 30px;
 
 		li {
-			color: @medium-gray;
-			font-size: 14px;
+			font-size: 15px;
 			font-weight: 400;
 			padding-bottom: 10px;
 		}
