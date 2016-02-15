@@ -65,7 +65,7 @@
 			
 			a {
 				display: block;
-				margin:0 20px;
+				margin:0 10px;
 
 				@media @port-xs {
 					margin: 0;
@@ -77,6 +77,7 @@
 					letter-spacing: 5px;
 					text-transform: uppercase;
 					color: @dark-gray;
+					background: rgba(255,255,255,0.5);
 
 					@media @port-xs {
 						letter-spacing: 0px;
@@ -420,6 +421,19 @@
 		margin: 0;
 		padding: 0;
 		font-size: 15px;
+	}
+}
+
+.yt-btn {
+	opacity: 0.9;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	img {
+		width: 90px;
+		height: auto;
 	}
 }
 

@@ -261,7 +261,7 @@ h6 {
 }
 .main-header .main-nav li a {
   display: block;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 @media only screen and (max-width: 680px) {
   .main-header .main-nav li a {
@@ -274,6 +274,7 @@ h6 {
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #333333;
+  background: rgba(255, 255, 255, 0.5);
 }
 @media only screen and (max-width: 680px) {
   .main-header .main-nav li a button {
@@ -590,6 +591,16 @@ h6 {
   margin: 0;
   padding: 0;
   font-size: 15px;
+}
+.yt-btn {
+  opacity: 0.9;
+}
+.yt-btn:hover {
+  opacity: 1;
+}
+.yt-btn img {
+  width: 90px;
+  height: auto;
 }
 .main-footer {
   position: relative;
