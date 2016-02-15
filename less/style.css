@@ -71,6 +71,14 @@ h6 {
     font-size: 19px;
   }
 }
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
 .generic-form button {
   box-shadow: none !important;
   font-size: 13px !important;
