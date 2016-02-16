@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="66b2abf1-6126-4479-9a63-6bf3869d3bfa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galerie.html" afterPath="$PROJECT_DIR$/galerie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/misc/carousel.css" afterPath="$PROJECT_DIR$/less/misc/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/misc/carousel.less" afterPath="$PROJECT_DIR$/less/misc/carousel.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.css" afterPath="$PROJECT_DIR$/less/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
@@ -28,12 +31,37 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5982906">
-              <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.07122507">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding>
-                <element signature="e#5052#5392#0" expanded="false" />
-                <element signature="e#5403#5706#0" expanded="false" />
-                <element signature="e#6334#7794#0" expanded="false" />
+                <element signature="e#4946#5286#0" expanded="false" />
+                <element signature="e#5297#5600#0" expanded="false" />
+                <element signature="e#6228#7688#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galerie.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/galerie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.75">
+              <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="48" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/misc/carousel.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-31.875">
+              <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+              <folding>
+                <element signature="e#988#1343#0" expanded="false" />
+                <element signature="e#1358#2000#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,7 +106,6 @@
         <option value="$PROJECT_DIR$/js/controllers/GalleryController.js" />
         <option value="$PROJECT_DIR$/js/services/ContactData.js" />
         <option value="$PROJECT_DIR$/js/controllers/AboutController.js" />
-        <option value="$PROJECT_DIR$/less/misc/carousel.less" />
         <option value="$PROJECT_DIR$/js/controllers/PartnersController.js" />
         <option value="$PROJECT_DIR$/js/misc/carousel.js" />
         <option value="$PROJECT_DIR$/js/controllers/IndexController.js" />
@@ -90,10 +117,11 @@
         <option value="$PROJECT_DIR$/servicii.html" />
         <option value="$PROJECT_DIR$/parteneri.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/galerie.html" />
         <option value="$PROJECT_DIR$/faq.html" />
         <option value="$PROJECT_DIR$/despre-noi.html" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/galerie.html" />
+        <option value="$PROJECT_DIR$/less/misc/carousel.less" />
         <option value="$PROJECT_DIR$/less/style.less" />
       </list>
     </option>
@@ -164,6 +192,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weddingdance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weddingdance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -324,10 +374,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
-            <element signature="e#439#951#0" expanded="false" />
-            <element signature="e#5052#5392#0" expanded="false" />
-            <element signature="e#5403#5706#0" expanded="false" />
-            <element signature="e#6334#7794#0" expanded="false" />
+            <element signature="e#333#845#0" expanded="false" />
+            <element signature="e#4946#5286#0" expanded="false" />
+            <element signature="e#5297#5600#0" expanded="false" />
+            <element signature="e#6228#7688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -379,10 +429,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
           <folding>
-            <element signature="e#439#951#0" expanded="false" />
-            <element signature="e#5052#5392#0" expanded="false" />
-            <element signature="e#5403#5706#0" expanded="false" />
-            <element signature="e#6334#7794#0" expanded="false" />
+            <element signature="e#333#845#0" expanded="false" />
+            <element signature="e#4946#5286#0" expanded="false" />
+            <element signature="e#5297#5600#0" expanded="false" />
+            <element signature="e#6228#7688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -418,10 +468,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#439#951#0" expanded="false" />
-            <element signature="e#5052#5392#0" expanded="false" />
-            <element signature="e#5403#5706#0" expanded="false" />
-            <element signature="e#6334#7794#0" expanded="false" />
+            <element signature="e#333#845#0" expanded="false" />
+            <element signature="e#4946#5286#0" expanded="false" />
+            <element signature="e#5297#5600#0" expanded="false" />
+            <element signature="e#6228#7688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,10 +491,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#439#951#0" expanded="false" />
-            <element signature="e#5052#5392#0" expanded="false" />
-            <element signature="e#5403#5706#0" expanded="false" />
-            <element signature="e#6334#7794#0" expanded="false" />
+            <element signature="e#333#845#0" expanded="false" />
+            <element signature="e#4946#5286#0" expanded="false" />
+            <element signature="e#5297#5600#0" expanded="false" />
+            <element signature="e#6228#7688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -499,10 +549,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#439#951#0" expanded="false" />
-            <element signature="e#5052#5392#0" expanded="false" />
-            <element signature="e#5403#5706#0" expanded="false" />
-            <element signature="e#6334#7794#0" expanded="false" />
+            <element signature="e#333#845#0" expanded="false" />
+            <element signature="e#4946#5286#0" expanded="false" />
+            <element signature="e#5297#5600#0" expanded="false" />
+            <element signature="e#6228#7688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -535,10 +585,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#439#951#0" expanded="false" />
-            <element signature="e#5052#5392#0" expanded="false" />
-            <element signature="e#5403#5706#0" expanded="false" />
-            <element signature="e#6334#7794#0" expanded="false" />
+            <element signature="e#333#845#0" expanded="false" />
+            <element signature="e#4946#5286#0" expanded="false" />
+            <element signature="e#5297#5600#0" expanded="false" />
+            <element signature="e#6228#7688#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -557,18 +607,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/misc/carousel.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06944445">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.015740741">
           <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,16 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/galerie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6805556">
-          <caret line="193" column="13" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7916667">
@@ -759,14 +792,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/less/misc/carousel.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.875">
+          <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+          <folding>
+            <element signature="e#988#1343#0" expanded="false" />
+            <element signature="e#1358#2000#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galerie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.75">
+          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="48" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5982906">
-          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.07122507">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="e#5052#5392#0" expanded="false" />
-            <element signature="e#5403#5706#0" expanded="false" />
-            <element signature="e#6334#7794#0" expanded="false" />
+            <element signature="e#4946#5286#0" expanded="false" />
+            <element signature="e#5297#5600#0" expanded="false" />
+            <element signature="e#6228#7688#0" expanded="false" />
           </folding>
         </state>
       </provider>

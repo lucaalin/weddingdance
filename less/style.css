@@ -210,6 +210,42 @@ h6 {
   height: auto;
   opacity: 1;
 }
+.carouselboxvideo .buttons {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+}
+.carouselboxvideo .buttons button {
+  border: none;
+  visibility: hidden;
+  outline-width: 0;
+  background: none;
+  position: absolute;
+  top: 350px;
+}
+@media only screen and (max-width: 680px) {
+  .carouselboxvideo .buttons button {
+    top: 135px;
+  }
+}
+.carouselboxvideo .buttons button.next {
+  right: 0;
+}
+.carouselboxvideo .buttons button.prev {
+  left: 0;
+}
+.carouselboxvideo .buttons button i {
+  font-size: 48px;
+  color: #7f2622;
+  transition: all 0.2s ease-in-out 0s;
+}
+.carouselboxvideo .buttons button i:hover {
+  color: #000000;
+}
 .main-header {
   position: fixed;
   top: 0;
