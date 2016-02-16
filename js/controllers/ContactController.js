@@ -24,7 +24,7 @@ weddingApp.controller('ContactController',
         $scope.sendUserData = function() {
             $http({
                 method : 'POST',
-                url : '/create',
+                url : 'contact.php',
                 data : $scope.user
             });
             window.alert('Mesajul dvs. a fost trimis cu succes!');
