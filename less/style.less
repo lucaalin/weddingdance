@@ -7,8 +7,6 @@
 // TO-DO : 4.Add photo video gallery content
 // TO-DO : 6.Solve menu style on mobile / responsive
 
-// Menu style & colors on new bg
-
 // HEADER
 .main-header {
 	position: fixed;
@@ -65,6 +63,12 @@
 			max-width: 200px;
 			height: auto;
 		}
+
+		@media @port-xs {
+			img {
+				max-width: 140px;
+			}
+		}
 	}
 	
 	.main-nav {
@@ -91,9 +95,10 @@
 					border-radius: 0;
 
 					@media @port-xs {
-						letter-spacing: 0px;
+						letter-spacing: -1px;
 						font-size: 13px;
 						text-transform: capitalize;
+						text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 					}
 					
 					&:hover {
@@ -126,6 +131,10 @@
 				a {
 					button {
 						color: @dark-gray;
+
+						@media @port-xs {
+							text-shadow: none;
+						}
 					}
 				}
 			}
