@@ -240,13 +240,17 @@ h6 {
 .main-header .secondary-nav li a button {
   margin: 0;
   font-size: 13px;
-  color: #333333;
+  color: #ffffff;
   border-radius: 0;
   text-transform: none;
   background: none;
 }
 .main-header .secondary-nav li a button:hover {
-  color: #7f2622;
+  color: #ffffff;
+}
+.main-header .secondary-nav li a button[disabled] span {
+  color: #ffffff;
+  opacity: 0.6;
 }
 .main-header .logo img {
   width: 100%;
@@ -261,7 +265,7 @@ h6 {
 }
 .main-header .main-nav li a {
   display: block;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 @media only screen and (max-width: 680px) {
   .main-header .main-nav li a {
@@ -273,12 +277,15 @@ h6 {
   font-size: 14px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #333333;
-  background: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  background: none;
+  border-radius: 0;
 }
 @media only screen and (max-width: 680px) {
   .main-header .main-nav li a button {
     letter-spacing: 0px;
+    font-size: 13px;
+    text-transform: capitalize;
   }
 }
 .main-header .main-nav li a button:hover {
@@ -299,6 +306,9 @@ h6 {
 }
 .main-header.compact .main-nav {
   padding: 0;
+}
+.main-header.compact .main-nav li a button {
+  color: #333333;
 }
 .intro {
   position: relative;

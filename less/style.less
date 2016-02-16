@@ -5,11 +5,9 @@
 // TO-DO : 2.Contact put php file and finalize email send
 // TO-DO : 3.Add photo gallery content
 // TO-DO : 4.Add photo video gallery content
-// TO-DO : 5.Solve menu style on new bg photo
 // TO-DO : 6.Solve menu style on mobile / responsive
 
-
-// Footer clear first address, contact form display logic, contact change to 1 map
+// Menu style & colors on new bg
 
 // HEADER
 .main-header {
@@ -41,13 +39,20 @@
 				button {
 					margin: 0;
 					font-size: 13px;
-					color: @dark-gray;
+					color: @white;
 					border-radius: 0;
 					text-transform: none;
 					background: none;
 					
 					&:hover {
-						color: @main;
+						color: @white;
+					}
+
+					&[disabled] {
+						span {
+							color: @white;
+							opacity: 0.6;
+						}
 					}
 				}
 			}
@@ -70,7 +75,7 @@
 			
 			a {
 				display: block;
-				margin:0 10px;
+				margin:0 15px;
 
 				@media @port-xs {
 					margin: 0;
@@ -81,11 +86,14 @@
 					font-size: 14px;
 					letter-spacing: 5px;
 					text-transform: uppercase;
-					color: @dark-gray;
-					background: rgba(255,255,255,0.5);
+					color: @white;
+					background: none;
+					border-radius: 0;
 
 					@media @port-xs {
 						letter-spacing: 0px;
+						font-size: 13px;
+						text-transform: capitalize;
 					}
 					
 					&:hover {
@@ -113,6 +121,14 @@
 		
 		.main-nav {
 			padding: 0;
+
+			li {
+				a {
+					button {
+						color: @dark-gray;
+					}
+				}
+			}
 		}
 	}
 }
