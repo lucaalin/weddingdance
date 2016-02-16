@@ -63,12 +63,6 @@ weddingApp.controller('FooterController',
                 phone: '0264 444 222',
                 addrLineOne: 'pta. Marasti, nr. 100',
                 addrLineTwo: 'Cluj-Napoca, jud. Cluj'
-            },
-            {
-                area: 'Zorilor',
-                phone: '0264 444 333',
-                addrLineOne: 'str. Republicii, nr. 83',
-                addrLineTwo: 'Cluj-Napoca, jud. Cluj'
             }
         ];
 

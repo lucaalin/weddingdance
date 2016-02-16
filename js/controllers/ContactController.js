@@ -11,6 +11,16 @@ weddingApp.controller('ContactController',
 
         $scope.user = {};
 
+        $scope.user.interest = 2;
+
+        $scope.selectChanged = function(){
+            if ($scope.user.interest == 2) {
+                return false;
+            } else {
+                return true;
+            }
+        };
+
         $scope.sendUserData = function() {
             $http({
                 method : 'POST',

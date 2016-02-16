@@ -149,49 +149,49 @@
 			<footer class="main-footer" ng-controller="FooterController">
 				<div class="wrap">
 					<div layout="row" layout-xs="column">
-							<div flex="70" flex-xs="100">
-								<nav class="bottom-nav" role="navigation">
-									<ul>
-										<li ng-repeat="menu in menus">
-											<a href="{{menu.link}}">
-												<md-button>{{menu.label}}</md-button>
-											</a>
-										</li>
-										<li ng-repeat="menu in secmenus">
-											<a href="{{menu.link}}">
-												<md-button ng-disabled="{{menu.disabled}}">{{menu.label}}</md-button>
-											</a>
-										</li>
-									</ul>
-								</nav>
-							</div>
-							<div flex="30" flex-xs="100">
-								<nav class="social-nav">
-									<ul>
-										<li ng-repeat="network in socials">
-											<a href="{{network.link}}" target="_blank">
-												<img ng-src="{{network.imageUrl}}" alt="{{network.name}}">
-											</a>
-										</li>
-									</ul>
-								</nav>
+						<div flex="70" flex-xs="100">
+							<nav class="bottom-nav" role="navigation">
+								<ul>
+									<li ng-repeat="menu in menus">
+										<a href="{{menu.link}}">
+											<md-button>{{menu.label}}</md-button>
+										</a>
+									</li>
+									<li ng-repeat="menu in secmenus">
+										<a href="{{menu.link}}">
+											<md-button ng-disabled="{{menu.disabled}}">{{menu.label}}</md-button>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div flex="30" flex-xs="100">
+							<nav class="social-nav">
+								<ul>
+									<li ng-repeat="network in socials">
+										<a href="{{network.link}}" target="_blank">
+											<img ng-src="{{network.imageUrl}}" alt="{{network.name}}">
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div layout="row" layout-align="left center" layout-xs="column">
+						<div flex="65" flex-xs="100" ng-repeat="address in addresses">
+							<div class="address">
+								<span>{{address.area}}</span><br>
+								<span class="phone">{{address.phone}}</span><br>
+								{{address.addrLineOne}}<br>
+								{{address.addrLineTwo}}
 							</div>
 						</div>
-					<div layout="row" layout-align="center center" layout-xs="column">
-							<div flex="35" flex-xs="50" ng-repeat="address in addresses">
-								<div class="address">
-									<span>{{address.area}}</span><br>
-									<span class="phone">{{address.phone}}</span><br>
-									{{address.addrLineOne}}<br>
-									{{address.addrLineTwo}}
-								</div>
-							</div>
-							<div flex="35" flex-xs="100">
-								<div class="copyright">
-									{{copyright.copy}} <a href="{{copyright.link}}">{{copyright.label}}</a>. {{copyright.rights}}.
-								</div>
+						<div flex="35" flex-xs="100">
+							<div class="copyright">
+								{{copyright.copy}} <a href="{{copyright.link}}">{{copyright.label}}</a>. {{copyright.rights}}.
 							</div>
 						</div>
+					</div>
 				</div>
 			</footer>
 
