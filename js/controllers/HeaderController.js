@@ -5,7 +5,8 @@ weddingApp.controller('HeaderController',
 
         $scope.logo = {
             link: 'index.html',
-            imageUrl: 'assets/img/LOGOWeddingDnce.png'
+            imageUrl: 'assets/img/LOGOWeddingDnce.png',
+            motto: 'Pașii spre pasul cel mare'
         };
 
         $scope.secmenus = [

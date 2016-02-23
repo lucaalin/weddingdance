@@ -18,7 +18,7 @@ li {
 }
 .body-wrapper {
   position: relative;
-  border: 10px solid #cdb59d;
+  border: 10px solid #7f2622;
   border-bottom: 0;
   min-height: 100%;
 }
@@ -298,6 +298,20 @@ h6 {
     max-width: 140px;
   }
 }
+.main-header .logo h2 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-weight: 300;
+  font-size: 17px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 960px) {
+  .main-header .logo h2 {
+    font-size: 15px;
+  }
+}
 .main-header .main-nav {
   padding: 10px 10px;
 }
@@ -306,7 +320,7 @@ h6 {
 }
 .main-header .main-nav li a {
   display: block;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 @media only screen and (max-width: 680px) {
   .main-header .main-nav li a {
@@ -318,9 +332,8 @@ h6 {
   font-size: 14px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #ffffff;
-  background: none;
-  border-radius: 0;
+  color: #7f2622;
+  background: rgba(255, 255, 255, 0.8);
 }
 @media only screen and (max-width: 680px) {
   .main-header .main-nav li a button {
@@ -331,7 +344,7 @@ h6 {
   }
 }
 .main-header .main-nav li a button:hover {
-  color: #7f2622;
+  background: #ffffff;
 }
 .main-header.compact {
   background: rgba(255, 255, 255, 0.95);
@@ -351,6 +364,7 @@ h6 {
 }
 .main-header.compact .main-nav li a button {
   color: #333333;
+  background: none;
 }
 @media only screen and (max-width: 680px) {
   .main-header.compact .main-nav li a button {
@@ -515,6 +529,23 @@ h6 {
   position: relative;
   text-align: center;
   padding-bottom: 40px;
+}
+.generic-content button.takeme {
+  margin-top: 30px;
+  background: #7f2622 !important;
+  color: #ffffff !important;
+  padding: 0 45px;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  min-width: 220px;
+}
+@media only screen and (max-width: 960px) {
+  .generic-content button.takeme {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 15px;
+    clear: both;
+  }
 }
 @media only screen and (max-width: 960px) {
   .generic-content {

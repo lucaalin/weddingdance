@@ -41,6 +41,7 @@
 				<div flex>
 					<div class="logo">
 						<a href="{{logo.link}}"><img ng-src="{{logo.imageUrl}}" alt="weddingdance.ro"></a>
+						<h2>{{logo.motto}}</h2>
 					</div>
 				</div>
 			</div>
@@ -108,7 +109,7 @@
 							</md-select>
 						</md-input-container>
 						<div class="additional-data" ng-show="selectChanged()">
-							<span class="tip">Date aditionale :</span>
+							<span class="tip">Date aditionale nunta</span>
 							<md-datepicker id="eventdate" ng-model="user.eventDate" md-placeholder="Data"></md-datepicker>
 							<md-input-container class="md-block" flex-gt-sm>
 								<label for="eventLocation">Locatia</label>
@@ -132,7 +133,7 @@
 			<div layout="row" layout-xs="column">
 				<div flex="100">
 					<div class="map-item">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.330831318386!2d23.61235095162464!3d46.778085079035975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c1752f4837d%3A0x76b83e6440f851ab!2zUGlhyJthIE3Eg3LEg8iZdGkgMTAwLCBDbHVqLU5hcG9jYSA0MDAwMDA!5e0!3m2!1sen!2sro!4v1453798789290" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.780339578459!2d23.55102111603529!3d46.769226053437045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490ef448c11c97%3A0xf1d4e41402fb472a!2sStrada+Bihorului+10%2C+Cluj-Napoca+400000!5e0!3m2!1sen!2sro!4v1456233347519" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -175,6 +176,7 @@
 					<div class="address">
 						<span>{{address.area}}</span><br>
 						<span class="phone">{{address.phone}}</span><br>
+						<span class="phone">{{address.phone2}}</span><br>
 						{{address.addrLineOne}}<br>
 						{{address.addrLineTwo}}
 					</div>

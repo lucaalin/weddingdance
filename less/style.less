@@ -2,7 +2,6 @@
 @import "common";
 @import "misc/carousel";
 
-// TO-DO : 2.Contact put php file and finalize email send
 
 // HEADER
 .main-header {
@@ -66,6 +65,20 @@
 				max-width: 140px;
 			}
 		}
+
+        h2 {
+            margin: 0;
+            padding: 0 0 10px 0;
+            color: @white;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+            font-weight: 300;
+            font-size: 17px;
+            font-weight: 400;
+
+            @media @port-sm {
+                font-size: 15px;
+            }
+        }
 	}
 	
 	.main-nav {
@@ -76,7 +89,7 @@
 			
 			a {
 				display: block;
-				margin:0 15px;
+				margin:0 10px;
 
 				@media @port-xs {
 					margin: 0;
@@ -87,9 +100,8 @@
 					font-size: 14px;
 					letter-spacing: 5px;
 					text-transform: uppercase;
-					color: @white;
-					background: none;
-					border-radius: 0;
+					color: @main;
+                    background: rgba(255,255,255,0.8);
 
 					@media @port-xs {
 						letter-spacing: -1px;
@@ -97,10 +109,10 @@
 						text-transform: capitalize;
 						text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 					}
-					
-					&:hover {
-						color: @main;
-					}
+
+                    &:hover {
+                        background: rgba(255,255,255,1);
+                    }
 				}
 			}
 		}
@@ -128,6 +140,7 @@
 				a {
 					button {
 						color: @dark-gray;
+                        background: none;
 
 						@media @port-xs {
 							text-shadow: none;
@@ -307,6 +320,23 @@
 	position: relative;
 	text-align: center;
 	padding-bottom: 40px;
+
+    button.takeme {
+        margin-top: 30px;
+        background: @main !important;
+        color: @white !important;
+        padding: 0 45px;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        min-width: 220px;
+
+        @media @port-sm {
+            margin-top: 0;
+            padding-top: 0;
+            margin-bottom: 15px;
+            clear: both;
+        }
+    }
 
 	@media @port-sm {
 		padding: 0 30px;

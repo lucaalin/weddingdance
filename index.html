@@ -41,6 +41,7 @@
 						<div flex>
 							<div class="logo">
 								<a href="{{logo.link}}"><img ng-src="{{logo.imageUrl}}" alt="weddingdance.ro"></a>
+								<h2>{{logo.motto}}</h2>
 							</div>
 						</div>
 					</div>
@@ -69,7 +70,6 @@
 								<div layout="column">
 									<div flex>
 										<h1>{{pagecontent.intro.title}}</h1>
-										<h2>{{pagecontent.intro.subtitle}}</h2>
 										<!-- <a href="{{pagecontent.intro.buttonLink}}"><md-button class="md-raised">{{pagecontent.intro.buttonLabel}}</md-button></a> -->
 									</div>
 								</div>
@@ -182,6 +182,7 @@
 							<div class="address">
 								<span>{{address.area}}</span><br>
 								<span class="phone">{{address.phone}}</span><br>
+								<span class="phone">{{address.phone2}}</span><br>
 								{{address.addrLineOne}}<br>
 								{{address.addrLineTwo}}
 							</div>

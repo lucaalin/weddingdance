@@ -21,16 +21,17 @@ weddingApp.controller('ContactController',
             }
         };
 
-        $scope.sendUserData = function() {
-            $http({
-                method : 'POST',
-                url : 'contact.php',
-                data : $scope.user
-            });
-            window.alert('Mesajul dvs. a fost trimis cu succes!');
-        }
+        console.log($scope.user);
 
-        // $scope.user = contactData.user;
+        $scope.sendUserData = function() {
+            var user = $scope.user
+            $http.post('../../contact.php', user).success(function(user, status, headers, config) {
+                    console.log(status + ' - ' + user);
+                }).error(function(user, status, headers, config) {
+                    console.log('error');
+                });
+
+        }
 
     }
 );

@@ -47,7 +47,7 @@ weddingApp.controller('FooterController',
         $scope.socials = [
             {
                 name: 'facebook',
-                link: ' ',
+                link: 'http://facebook.com/dansulmirilorcluj',
                 imageUrl: 'assets/img/social/fb.png'
             },
             {
@@ -59,9 +59,10 @@ weddingApp.controller('FooterController',
 
         $scope.addresses = [
             {
-                area: 'Marasti',
-                phone: '0264 444 222',
-                addrLineOne: 'pta. Marasti, nr. 100',
+                area: 'Grigorescu',
+                phone: 'Miki - 0732672867',
+                phone2: 'Paul - 0721672867',
+                addrLineOne: 'str. Bihorului, nr. 10',
                 addrLineTwo: 'Cluj-Napoca, jud. Cluj'
             }
         ];
