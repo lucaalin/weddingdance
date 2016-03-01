@@ -16,7 +16,7 @@ weddingApp.controller('HeaderController',
                 disabled: true
             },
             {
-                link: 'parteneri.html',
+                link: '',
                 label: 'Parteneri',
                 disabled: true
             },

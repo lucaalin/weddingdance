@@ -10,7 +10,7 @@ weddingApp.controller('FooterController',
                 disabled: true
             },
             {
-                link: 'parteneri.html',
+                link: '',
                 label: 'Parteneri',
                 disabled: true
             },
@@ -59,7 +59,7 @@ weddingApp.controller('FooterController',
 
         $scope.addresses = [
             {
-                area: 'Grigorescu',
+                area: 'Cart. Grigorescu',
                 phone: 'Miki - 0732672867',
                 phone2: 'Paul - 0721672867',
                 addrLineOne: 'str. Bihorului, nr. 10',
