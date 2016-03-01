@@ -110,6 +110,33 @@ h6 {
 .content-container {
   margin-bottom: 50px;
 }
+.gallery-list {
+  position: relative;
+  overflow: hidden;
+}
+.gallery-list ul {
+  position: relative;
+  display: block;
+  margin: 0 -20px;
+  padding: 0;
+  list-style: none;
+}
+.gallery-list ul li {
+  position: relative;
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.gallery-list ul li a {
+  display: block;
+  position: relative;
+}
+.gallery-list ul li a img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
 .carouselbox,
 .carouselboxvideo {
   position: relative;
