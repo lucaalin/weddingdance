@@ -2,45 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66b2abf1-6126-4479-9a63-6bf3869d3bfa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/images/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/images/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/images/lightbox-blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/images/lightbox-ico-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/images/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/jquery-1.10.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/jquery.lightbox-0.5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery/jquery.lightbox-0.5.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/A&amp;L_0580.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/A&amp;L_0582.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/C&amp;F_0873.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/C&amp;F_0884.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/DSC_4170.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/IMG-1180.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/IMG-1192.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/IMG-1224.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/IMG-779.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/IMG-829.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/IMG-833.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/IMG-839.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/Nunta_691.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/Nunta_693.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/Nunta_694.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/Nunta_707.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/Nunta_708.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/Nunta_719.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/Nunta_726.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/c&amp;r_0586.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/c&amp;r_0587.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/c&amp;r_0591.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/c&amp;r_0592.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/c&amp;r_0596.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/c&amp;r_0607.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/despre-noi.html" afterPath="$PROJECT_DIR$/despre-noi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/faq.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galerie.html" afterPath="$PROJECT_DIR$/galerie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/GalleryController.js" afterPath="$PROJECT_DIR$/js/controllers/GalleryController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/common.css" afterPath="$PROJECT_DIR$/less/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/common.less" afterPath="$PROJECT_DIR$/less/common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.css" afterPath="$PROJECT_DIR$/less/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parteneri.html" afterPath="$PROJECT_DIR$/parteneri.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicii.html" afterPath="$PROJECT_DIR$/servicii.html" />
     </list>
     <ignored path="weddingdance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +29,7 @@
     <favorites_list name="weddingdance" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,22 +51,22 @@
         <option value="$PROJECT_DIR$/js/controllers/FaqController.js" />
         <option value="$PROJECT_DIR$/less/misc/carousel.less" />
         <option value="$PROJECT_DIR$/js/controllers/ContactController.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/parteneri.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/despre-noi.html" />
-        <option value="$PROJECT_DIR$/faq.html" />
         <option value="$PROJECT_DIR$/js/controllers/HeaderController.js" />
         <option value="$PROJECT_DIR$/js/controllers/FooterController.js" />
-        <option value="$PROJECT_DIR$/servicii.html" />
         <option value="$PROJECT_DIR$/less/style.less" />
         <option value="$PROJECT_DIR$/contact.php" />
         <option value="$PROJECT_DIR$/gallery/styles.css" />
         <option value="$PROJECT_DIR$/gallery/jquery.lightbox-0.5.css" />
         <option value="$PROJECT_DIR$/gallery/jquery.lightbox-0.5.min.js" />
-        <option value="$PROJECT_DIR$/galerie.html" />
         <option value="$PROJECT_DIR$/less/common.less" />
         <option value="$PROJECT_DIR$/js/controllers/GalleryController.js" />
+        <option value="$PROJECT_DIR$/servicii.html" />
+        <option value="$PROJECT_DIR$/parteneri.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/faq.html" />
+        <option value="$PROJECT_DIR$/galerie.html" />
+        <option value="$PROJECT_DIR$/despre-noi.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
       </list>
     </option>
   </component>
@@ -135,7 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,37 +123,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddingdance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddingdance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddingdance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddingdance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,7 +272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="58" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,34 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parteneri.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4754601">
-          <caret line="126" column="41" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44479495">
-          <caret line="181" column="49" selection-start-line="181" selection-start-column="49" selection-end-line="181" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44479495">
-          <caret line="175" column="41" selection-start-line="175" selection-start-column="41" selection-end-line="175" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/despre-noi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4754601">
-          <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/FooterController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17964073">
@@ -610,24 +522,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4754601">
-          <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/IndexController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13473053">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servicii.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.823529">
-          <caret line="155" column="27" selection-start-line="155" selection-start-column="27" selection-end-line="155" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -649,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16957863">
           <caret line="3" column="1497" selection-start-line="3" selection-start-column="1497" selection-end-line="3" selection-end-column="1497" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6929348">
           <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,17 +576,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34907407">
           <caret line="120" column="28" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servicii.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9722222">
+          <caret line="193" column="9" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parteneri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9722222">
+          <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97151">
+          <caret line="220" column="17" selection-start-line="220" selection-start-column="17" selection-end-line="220" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9722222">
+          <caret line="156" column="9" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/galerie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.013888889">
-          <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="63" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.9722222">
+          <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/despre-noi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9722222">
+          <caret line="196" column="9" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97151">
+          <caret line="213" column="9" selection-start-line="213" selection-start-column="9" selection-end-line="213" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
