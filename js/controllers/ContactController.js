@@ -11,6 +11,8 @@ weddingApp.controller('ContactController',
 
         $scope.user = {};
 
+        $scope.isSent = false;
+
         $scope.user.interest = 2;
 
         $scope.selectChanged = function(){
@@ -27,6 +29,7 @@ weddingApp.controller('ContactController',
             var user = $scope.user
             $http.post('../../contact.php', user).success(function(user, status, headers, config) {
                     console.log(status + ' - ' + user);
+                    $scope.isSent = true;
                 }).error(function(user, status, headers, config) {
                     console.log('error');
                 });
